@@ -188,12 +188,7 @@ export default function Navbar() {
               xl:px-9
             "
           >
-            <Link
-              href="/"
-              aria-label="Harmony Home"
-              onClick={() => setMenuOpen(false)}
-              className="relative z-20 flex shrink-0 items-center"
-            >
+          
               <motion.div
                 whileHover={{ scale: 1.015 }}
                 transition={{
@@ -201,19 +196,31 @@ export default function Navbar() {
                   ease: easeOut,
                 }}
               >
+                 <Link
+                href="/"
+                aria-label="Infinium Codename Humming Bird"
+                className="
+                  relative
+                  block
+                  h-20
+                  w-45
+                  rounded-sm
+                  focus:outline-none
+                  focus-visible:ring-2
+                  focus-visible:ring-white/80
+                  focus-visible:ring-offset-2
+                  focus-visible:ring-offset-[#0F8B8D]
+                "
+              >
                 <Image
-                  src="/images/logo.png"
-                  alt="Harmony Home"
-                  width={140}
-                  height={40}
+                  src="/images/logo-color.png"
+                  alt="Infinium Codename Humming Bird"
+                  fill
+                  className="object-contain"
                   priority
-                  className="
-                    h-15 w-auto object-contain
-                    lg:h-20
-                  "
                 />
+              </Link>
               </motion.div>
-            </Link>
 
             <div className="hidden items-center lg:flex">
               <div className="flex items-center gap-1 xl:gap-2">

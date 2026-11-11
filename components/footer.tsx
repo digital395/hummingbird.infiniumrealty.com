@@ -115,8 +115,10 @@ export default function Footer() {
                 className="
                   relative
                   block
-                  h-20
-                  w-45
+                  h-25
+                  w-55
+                  md:h-25
+                  md:w-65
                   rounded-sm
                   focus:outline-none
                   focus-visible:ring-2
@@ -126,7 +128,7 @@ export default function Footer() {
                 "
               >
                 <Image
-                  src="/images/logo.png"
+                  src="/images/logo-white.png"
                   alt="Harmony"
                   fill
                   className="object-contain"
