@@ -111,7 +111,7 @@ export default function Footer() {
             >
               <Link
                 href="/"
-                aria-label="Harmony Home"
+                aria-label="Codename Humming Bird Home"
                 className="
                   relative
                   block
@@ -129,7 +129,7 @@ export default function Footer() {
               >
                 <Image
                   src="/images/logo-white.png"
-                  alt="Harmony"
+                  alt="Codename Humming Bird"
                   fill
                   className="object-contain"
                   priority

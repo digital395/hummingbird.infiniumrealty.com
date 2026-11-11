@@ -75,7 +75,7 @@ export default function AboutHarmony() {
       const link = document.createElement("a");
 
       link.href = "/brochure.pdf";
-      link.download = "Harmony-Brochure.pdf";
+      link.download = "Codename-Humming-Bird-Brochure.pdf";
 
       document.body.appendChild(link);
       link.click();
@@ -152,7 +152,7 @@ export default function AboutHarmony() {
           ease: easeInOut,
         }}
       >
-        About Infinium Harmony Coimbatore
+        About Infinium Codename Humming Bird Coimbatore
       </motion.p>
 
       {/* ================= DIVIDER ================= */}
@@ -218,7 +218,7 @@ export default function AboutHarmony() {
   }}
 >
   <p className="m-0">
-     Discover an elevated lifestyle at Infinium Harmony, a thoughtfully
+     Discover an elevated lifestyle at Infinium Codename Humming Bird, a thoughtfully
               planned residential apartments development in Coimbatore.
               Designed for those who value privacy, comfort and independent
               living, the project offers beautifully planned apartments that

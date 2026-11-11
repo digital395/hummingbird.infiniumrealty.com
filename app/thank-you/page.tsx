@@ -392,7 +392,7 @@ export default function ThankYou() {
           >
             Thank you for your interest in{" "}
             <span className="font-semibold text-[#007c85]">
-              Infinium Harmony
+              Infinium Codename Humming Bird
             </span>
             . Our team will get in touch with you shortly to help you explore
             your new home and take the next step toward a harmonious way of

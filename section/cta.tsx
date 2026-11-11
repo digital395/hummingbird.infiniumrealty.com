@@ -229,7 +229,7 @@ export default function CTA() {
         >
           <Image
             src="/images/cta.webp"
-            alt="Harmony villa"
+            alt="Codename Humming Bird Apartment"
             fill
             priority
             sizes="

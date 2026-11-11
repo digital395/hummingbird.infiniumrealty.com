@@ -311,7 +311,7 @@ export default function WhyHarmony() {
                 font-bold
                 leading-5
                 text-[#0F8B8D]
-
+                uppercase
                 sm:text-[16px]
                 sm:leading-5.25
 
@@ -319,7 +319,7 @@ export default function WhyHarmony() {
                 lg:leading-5.75
               "
             >
-              WHY HARMONY
+              WHY Codename Humming Bird
             </p>
 
             <motion.div

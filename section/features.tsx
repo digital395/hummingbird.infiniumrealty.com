@@ -136,7 +136,7 @@ lg:items-stretch
         xl:leading-7
       "
     >
-      What you get in a Harmony apartment
+      What you get in a Codename Humming Bird apartment
     </h2>
 
     <motion.div
@@ -403,7 +403,7 @@ lg:items-stretch
 >
   <Image
     src="/images/feature.webp"
-    alt="Harmony apartment"
+    alt="Codename Humming Bird apartment"
     fill
     sizes="
       (max-width: 639px) 100vw,

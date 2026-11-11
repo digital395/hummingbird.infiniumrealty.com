@@ -140,7 +140,7 @@ export default function HarmonyFilmSection() {
                 sm:leading-3.75
               "
             >
-              See Harmony before you visit
+              See Codename Humming Bird before you visit
             </p>
 
             <motion.div
@@ -216,7 +216,7 @@ export default function HarmonyFilmSection() {
             >
               <iframe
                 src="https://www.youtube.com/embed/hOExZWGLkLU?autoplay=1&mute=1&rel=0&playsinline=1"
-                title="Harmony Film"
+                title="Codename Humming Bird Film"
                 className="
                   absolute
                   inset-0

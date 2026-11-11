@@ -335,7 +335,7 @@ export default function AmenitiesSection() {
 
       <Image
         src="/images/amenities.webp"
-        alt="Harmony amenities"
+        alt="Codename Humming Bird amenities"
         fill
         priority={false}
         sizes="100vw"
@@ -1062,7 +1062,7 @@ export default function AmenitiesSection() {
                 text-[#0F8B8D]
               "
             >
-              HARMONY
+              Codename Humming Bird
             </p>
 
             <h3

@@ -9,7 +9,7 @@ export default function ModelVillaCTA() {
       <div className="absolute inset-0">
         <Image
           src="/images/model-villa.png"
-          alt="Harmony model villa"
+          alt="Codename Humming Bird model Apartment"
           fill
           priority={false}
           sizes="100vw"

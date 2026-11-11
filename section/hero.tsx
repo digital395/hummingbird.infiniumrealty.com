@@ -774,7 +774,7 @@ lg:order-2
     <Image
       ref={imageRef}
       src="/images/hero.webp"
-      alt="Harmony residential community"
+      alt="Codename Humming Bird residential community"
       fill
       priority
       sizes="(max-width: 1023px) 100vw, 50vw"
