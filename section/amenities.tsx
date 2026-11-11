@@ -22,10 +22,10 @@ const amenities = [
     title: "Senior Citizen's Alcove",
     image: "/images/amenities/4.webp",
   },
-  // {
-  //   name: "Leisure Pathway",
-  //   image: "/images/amenities/5.webp",
-  // },
+  {
+    title: "Club House",
+    image: "/images/amenities/5.webp",
+  },
   {
     title: "Seating Alcove",
     image: "/images/amenities/6.webp",
@@ -49,6 +49,10 @@ const amenities = [
   {
     title: "Yoga Deck",
     image: "/images/amenities/11.webp",
+  },
+  {
+    title: "OSR",
+    image: "/images/amenities/12.webp",
   },
   // {
   //   title: "Meditation Garden",
