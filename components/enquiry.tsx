@@ -6,10 +6,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { saveLeadVerification } from "@/utils/LeadVerification";
 
 type Budget =
-  | "Up to ₹1.5 Cr"
-  | "₹1.5 – 3 Cr"
-  | "₹3 – 4.5 Cr"
-  | "Above ₹4.5 Cr"
+  | "₹1 Crore – ₹1.5 Crore"
+  | "₹1.5 Crore – ₹2 Crore"
+  | "₹2 Crore – ₹2.5 Crore"
+  | "₹2.5 Crore – ₹3 Crore"
   | "";
 type PurchaseTimeline =
   | "Within 1 month"
@@ -348,10 +348,10 @@ const canSubmit =
       <div className="mt-4 flex flex-wrap gap-2.5">
         {(
           [
-            "Up to ₹1.5 Cr",
-            "₹1.5 – 3 Cr",
-            "₹3 – 4.5 Cr",
-            "Above ₹4.5 Cr",
+            "₹1 Crore – ₹1.5 Crore",
+  "₹1.5 Crore – ₹2 Crore",
+  "₹2 Crore – ₹2.5 Crore",
+"₹2.5 Crore – ₹3 Crore",
           ] as const
         ).map((item) => {
           const selected = budget === item;
