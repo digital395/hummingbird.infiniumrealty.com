@@ -52,17 +52,22 @@ const cardVariants = {
 export default function ChooseYourHome() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-  const handlePriceClick = () => {
-    if (isLeadValid()) {
-      window.open(
-        "/brochure/harmony-price-floor-plan.pdf",
-        "_blank"
-      );
-      return;
-    }
+const handlePriceClick = () => {
+  if (isLeadValid()) {
+    const link = document.createElement("a");
 
-    setIsPopupOpen(true);
-  };
+    link.href = "/brochure.pdf";
+    link.download = "Codename-Humming-Bird-Brochure.pdf";
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    return;
+  }
+
+  setIsPopupOpen(true);
+};
 
   return (
     <section
@@ -553,8 +558,7 @@ lg:grid-cols-1
       {/* CTA */}
       <motion.button
         type="button"
-        onClick={() => setIsPopupOpen(true)}
-        whileHover={{
+onClick={handlePriceClick}        whileHover={{
           backgroundColor: "#0B7375",
         }}
         whileTap={{
@@ -605,7 +609,7 @@ lg:grid-cols-1
         isOpen={isPopupOpen}
         onClose={() => setIsPopupOpen(false)}
         title="Get Price & Floor Plan"
-        download={false}
+        download={true}
       />
     </section>
   );

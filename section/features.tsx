@@ -21,16 +21,21 @@ export default function HarmonyVillaFeatures() {
   const [isBrochureOpen, setIsBrochureOpen] = useState(false);
 
   const handleBrochureClick = () => {
-    if (isLeadValid()) {
-      // Lead is already verified within the last 24 hours.
-      // Download brochure directly.
-      window.open("/brochure/harmony-brochure.pdf", "_blank");
-      return;
-    }
+  if (isLeadValid()) {
+    const link = document.createElement("a");
 
-    // Lead is not verified, so show the popup.
-    setIsBrochureOpen(true);
-  };
+    link.href = "/brochure.pdf";
+    link.download = "Codename-Humming-Bird-Brochure.pdf";
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    return;
+  }
+
+  setIsBrochureOpen(true);
+};
 
   return (
     <section className="w-full overflow-hidden bg-[#ffffff]">
@@ -274,7 +279,7 @@ lg:items-stretch
 
           {/* DOWNLOAD BUTTON */}
 
-          {/* <motion.button
+          <motion.button
             type="button"
             onClick={handleBrochureClick}
             initial={{
@@ -330,7 +335,7 @@ lg:items-stretch
             "
           >
             DOWNLOAD BROCHURE
-          </motion.button> */}
+          </motion.button>
         </motion.div>
 
         {/* =========================================================

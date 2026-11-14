@@ -79,7 +79,7 @@ export default function HarmonyFilmSection() {
     const link = document.createElement("a");
 
     link.href = brochureUrl;
-    link.download = "my-project-brochure.pdf";
+    link.download = "Codename-Humming-Bird-Brochure.pdf";
 
     document.body.appendChild(link);
     link.click();
@@ -250,7 +250,7 @@ export default function HarmonyFilmSection() {
             lg:py-5.25
           "
         >
-          {/* <motion.button
+          <motion.button
             type="button"
             onClick={handleDownloadBrochure}
             whileHover={{
@@ -289,7 +289,7 @@ export default function HarmonyFilmSection() {
             "
           >
             DOWNLOAD BROCHURE
-          </motion.button> */}
+          </motion.button>
         </motion.div>
       </motion.div>
 
